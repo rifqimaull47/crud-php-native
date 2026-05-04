@@ -22,7 +22,7 @@ if (!$result) {
 
     <style>
         body {
-            background: linear-gradient(135deg, #667eea, #764ba2);
+            background: linear-gradient(135deg, #931010, #110a81);
             min-height: 100vh;
             color: #333;
         }
@@ -91,9 +91,8 @@ if (!$result) {
                         </td>
                         <td>
                             <a href="edit.php?id=<?= $row['id']; ?>" class="btn btn-warning btn-sm btn-custom">Edit</a>
-                            <a href="hapus.php?id=<?= $row['id']; ?>" 
-                               class="btn btn-danger btn-sm btn-custom"
-                               onclick="return confirm('Yakin hapus data?')">Hapus</a>
+                             <a href="hapus.php?id=<?= $row['id']; ?>" 
+                               class="btn btn-danger btn-sm btn-custom">Hapus</a>
                         </td>
                     </tr>
                 <?php } ?>
